@@ -1,2 +1,2 @@
 [console_scripts]
-ollama-cli-test-case-generator = cli:main
+ollama-cli-test-case-generator = cli_markdown.cli:main
