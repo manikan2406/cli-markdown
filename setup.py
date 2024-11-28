@@ -20,7 +20,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "ollama-cli-test-case-generator=cli:main",
+            "ollama-cli-markdown-generator=cli:main",
         ],
     },
     classifiers=[
