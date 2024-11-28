@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="ollama-cli-test-generator",
+    name="ollama-cli-markdown-generator",
     version="1.0.0",
-    author="PratheepanBernierC",
-    author_email="pratheepan.bernier@eminds.ai",
+    author="manikan2406",
+    author_email="manikandan.c@eminds.ai",
     description="A CLI tool for generating and validating test cases using Ollama LLM",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/PratheepanBernierC/ollama_cli_test_case_generator",
+    url="https://github.com/manikan2406/cli-markdown",
     packages=find_packages(),
     python_requires=">=3.7",
     install_requires=[
