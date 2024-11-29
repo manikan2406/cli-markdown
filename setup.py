@@ -19,10 +19,11 @@ setup(
         "transformers"
     ],
     entry_points={
-        "console_scripts": [
-            "ollama-cli-markdown-generator=cli:main",
-        ],
+    "console_scripts": [
+        "ollama-cli-markdown-generator=cli-markdown.cli:main",
+    ],
     },
+
     classifiers=[
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
