@@ -21,9 +21,12 @@ setup(
     ],
     entry_points={
     "console_scripts": [
-            "ollama-cli-markdown-generator=markd.py:main",
+            "ollama-cli-markdown-generator=markd:main",
         ],
     
+    },
+    extras_require={
+        "dev": ["pytest"],
     },
 
    classifiers=[
