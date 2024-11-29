@@ -1,2 +1,2 @@
 [console_scripts]
-ollama-cli-markdown-generator = cli.__main__:main
+ollama-cli-markdown-generator = markd.py:main

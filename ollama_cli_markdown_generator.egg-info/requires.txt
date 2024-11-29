@@ -3,3 +3,4 @@ langchain-ollama
 pytest
 torch
 transformers
+markdown

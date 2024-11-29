@@ -21,7 +21,7 @@ setup(
     ],
     entry_points={
     "console_scripts": [
-            "ollama-cli-test-case-generator=markd:main",
+            "ollama-cli-markdown-generator=markd.py:main",
         ],
     
     },

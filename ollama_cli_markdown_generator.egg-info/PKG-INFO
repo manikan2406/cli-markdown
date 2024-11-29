@@ -19,6 +19,7 @@ Requires-Dist: langchain-ollama
 Requires-Dist: pytest
 Requires-Dist: torch
 Requires-Dist: transformers
+Requires-Dist: markdown
 
 # Ollama CLI
 
