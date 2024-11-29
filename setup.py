@@ -16,11 +16,13 @@ setup(
         "langchain-ollama",
         "pytest",
         "torch",
-        "transformers"
+        "transformers",
+        "markdown"
     ],
     entry_points={
-    "console_scripts": 
-        "ollama-cli-markdown-generator=cli.__main__:main",
+    "console_scripts": [
+            "ollama-cli-test-case-generator=markd:main",
+        ],
     
     },
 
