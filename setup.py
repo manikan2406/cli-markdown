@@ -19,9 +19,9 @@ setup(
         "transformers"
     ],
     entry_points={
-    "console_scripts": [
+    "console_scripts": 
         "ollama-cli-markdown-generator=cli.__main__:main",
-    ],
+    
     },
 
    classifiers=[
